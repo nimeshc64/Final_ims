@@ -79,12 +79,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ALstudents.cs" />
-    <Compile Include="Classes.cs" />
-    <Compile Include="CommonClass.cs" />
-    <Compile Include="DBConnect.cs" />
-    <Compile Include="Employees.cs" />
-    <Compile Include="EmployeesPayments.cs" />
+    <Compile Include="classes\ALstudents.cs" />
+    <Compile Include="classes\Classes.cs" />
+    <Compile Include="classes\CommonClass.cs" />
+    <Compile Include="classes\DBConnect.cs" />
+    <Compile Include="classes\Employees.cs" />
+    <Compile Include="classes\EmployeesPayments.cs" />
     <Compile Include="imsDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -101,9 +101,9 @@
     <Compile Include="LogIn.Designer.cs">
       <DependentUpon>LogIn.cs</DependentUpon>
     </Compile>
-    <Compile Include="Payments.cs" />
-    <Compile Include="QrEncoder.cs" />
-    <Compile Include="PermanentEmployee.cs" />
+    <Compile Include="classes\Payments.cs" />
+    <Compile Include="classes\QrEncoder.cs" />
+    <Compile Include="classes\PermanentEmployee.cs" />
     <Compile Include="ReportsPayment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,7 +128,7 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuHandle.cs" />
+    <Compile Include="classes\MenuHandle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs">
@@ -138,18 +138,18 @@
       <DependentUpon>Student.cs</DependentUpon>
     </Compile>
     <Compile Include="classes\StudentAttendence.cs" />
-    <Compile Include="StudentPayments.cs" />
-    <Compile Include="Students.cs" />
+    <Compile Include="classes\StudentPayments.cs" />
+    <Compile Include="classes\Students.cs" />
     <Compile Include="Teacher.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Teacher.Designer.cs">
       <DependentUpon>Teacher.cs</DependentUpon>
     </Compile>
-    <Compile Include="InternalTeachers.cs" />
-    <Compile Include="Teachers.cs" />
-    <Compile Include="TeachersPayments.cs" />
-    <Compile Include="Validation.cs" />
+    <Compile Include="classes\InternalTeachers.cs" />
+    <Compile Include="classes\Teachers.cs" />
+    <Compile Include="classes\TeachersPayments.cs" />
+    <Compile Include="classes\Validation.cs" />
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
     </EmbeddedResource>
